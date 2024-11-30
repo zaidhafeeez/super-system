@@ -4,7 +4,7 @@
   "description": "Configuration for tracking top GitHub users by country",
   "version": "2.0.0",
   "settings": {
-    "devMode": true,
+    "devMode": false,
     "minUsersThreshold": 750,
     "maxErrorIterations": 4,
     "updateFrequency": "daily"
