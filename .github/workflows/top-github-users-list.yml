@@ -12,7 +12,7 @@ jobs:
         uses: actions/checkout@v4
         
       - name: Update Top Users
-        uses: Zaid-maker/top-github-users-action@v1.0.6  # Updated version
+        uses: Zaid-maker/top-github-users-action@v1.0.7  # Updated version
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
         env:
