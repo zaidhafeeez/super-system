@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         
       - name: Update Top Users
         uses: Zaid-maker/top-github-users-action@v1.1.0  # Updated version
